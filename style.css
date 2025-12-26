@@ -1,35 +1,39 @@
- body {
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 1.6;
-      margin: 0;
-      padding: 0;
-      background: #f9f9f9;
-      color: #333;
-    }
-    main {
-      max-width: 900px;
-      margin: 40px auto;
-      background: #ffffff;
-      padding: 40px;
-      border-radius: 6px;
-    }
-    h1, h2 {
-      color: #222;
-    }
-    h1 {
-      margin-bottom: 10px;
-    }
-    h2 {
-      margin-top: 30px;
-      border-bottom: 2px solid #eee;
-      padding-bottom: 5px;
-    }
-    ul {
-      margin-left: 20px;
-    }
-    footer {
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #777;
-    }
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #333;
+}
+
+main {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 6px;
+}
+
+h1, h2 {
+  color: #222;
+}
+
+h2 {
+  margin-top: 30px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 5px;
+}
+
+/* 👇 This is the important part */
+main p,
+main li {
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+  color: #777;
+}
