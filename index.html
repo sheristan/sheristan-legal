@@ -1,31 +1,87 @@
- <style>
-    .legal-nav {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  margin-bottom: 30px;
-  padding-bottom: 15px;
-  border-bottom: 1px solid #e5e5e5;
-  flex-wrap: wrap;
-}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sheristan</title>
+    <meta name="description" content="Legal Information & Policies" />
+    <style>
+      .site-header {
+        background: #EBEBEB80;
+        color: #000;
+        text-align: center;
+        padding: 30px 20px;
+      }
 
-.legal-nav a {
-  text-decoration: none;
-  font-weight: 600;
-  color: #0066cc;
-  padding: 6px 10px;
-  border-radius: 4px;
-  transition: background-color 0.2s ease, color 0.2s ease;
-}
+      .site-header h1 {
+        margin: 0;
+        font-size: 2.2rem;
+        letter-spacing: 1px;
+      }
 
-.legal-nav a:hover {
-  background-color: #f0f6ff;
-  color: #003366;
-}
+      .site-header p {
+        margin-top: 8px;
+        font-size: 1rem;
+        color: #000000;
+      }
 
+      .legal-nav {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e5e5e5;
+        flex-wrap: wrap;
+      }
+
+      .legal-nav a {
+        text-decoration: none;
+        font-weight: 600;
+        color: #0066cc;
+        padding: 6px 10px;
+        border-radius: 4px;
+        transition: background-color 0.2s ease, color 0.2s ease;
+      }
+
+      .legal-nav a:hover {
+        background-color: #f0f6ff;
+        color: #003366;
+      }
+
+      .legal-nav a.active {
+        background-color: #0066cc;
+        color: #ffffff;
+      }
+
+      .site-footer {
+        background: #EBEBEB80;
+        color: #000000;
+        text-align: center;
+        padding: 20px;
+        font-size: 0.9rem;
+        margin-top: 40px;
+      }
+
+      .site-footer p {
+        margin: 0;
+      }
     </style>
- <nav>
-    <a href="./index.html">Privacy Policy</a>
-    <a href="./terms.html">Terms of Service</a>
-    <a href="./deletion.html">Data Deletion Policy</a>
-  </nav>
+  </head>
+  <body>
+    <header class="site-header">
+      <h1>Sheristan</h1>
+      <p>Legal Information & Policies</p>
+    </header>
+
+    <nav class="legal-nav">
+      <a href="./privacy.html" class="active">Privacy Policy</a>
+      <a href="./terms.html" class="active">Terms of Service</a>
+      <a href="./deletion.html" class="active">Data Deletion Policy</a>
+    </nav>
+    <footer class="site-footer">
+      <p>© 2025 Sheristan. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
