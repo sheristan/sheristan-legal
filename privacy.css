@@ -25,7 +25,6 @@ h2 {
   padding-bottom: 5px;
 }
 
-/* 👇 This is the important part */
 main p,
 main li {
   text-align: justify;
